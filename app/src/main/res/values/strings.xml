@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GB Route Planner</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_distance">Route Planner</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_distance">Direct Distance:</string>
+    <string name="text_miles">Distance in Miles</string>
+    <string name="text_walking">Walking:</string>
+    <string name="text_hours">Time in Hours</string>
+    <string name="text_submit">Submit</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_calculate">Calculate Distance</string>
+    <string name="text_route_planner">Route Planner</string>
+    <string name="text_route">Show Route</string>
+    <string name="text_view_map">View Map</string>
+    <string name="text_clear">Clear All Custom Markers</string>
+    <string name="text_refresh">Refresh Map</string>
+    <string name="text_add_marker">Add Marker At Current Location</string>
+</resources>

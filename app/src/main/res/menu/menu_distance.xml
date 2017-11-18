@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com1032.cw2.ew00162.ew00162_assignment2.DistanceActivity">
+    <item android:id="@+id/action_distance"
+          android:title="@string/text_route_planner"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+</menu>

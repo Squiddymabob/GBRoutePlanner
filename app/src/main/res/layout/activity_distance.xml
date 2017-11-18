@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="com1032.cw2.ew00162.ew00162_assignment2.DistanceActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Starting Point:"
+            android:id="@+id/textView"
+            android:layout_marginTop="76dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/spinner"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Destination:"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="79dp"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_alignTop="@+id/textView"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/textView2"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner2"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_alignEnd="@+id/spinner"
+            android:layout_toEndOf="@+id/textView2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/text_distance"
+            android:id="@+id/textView3"
+            android:layout_marginTop="68dp"
+            android:layout_below="@+id/spinner2"
+            android:layout_alignEnd="@+id/textView2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/text_miles"
+            android:id="@+id/textView4"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_alignEnd="@+id/spinner2"
+            android:layout_toEndOf="@+id/textView3"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/text_walking"
+            android:id="@+id/textView7"
+            android:layout_below="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/text_hours"
+            android:id="@+id/textView9"
+            android:layout_toEndOf="@+id/textView2"
+            android:layout_below="@+id/textView3"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_calculate"
+            android:id="@+id/button_calculate"
+            android:layout_below="@+id/spinner2"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_route"
+            android:id="@+id/button_route"
+            android:layout_below="@+id/textView9"
+            android:layout_alignStart="@+id/textView9"
+            android:layout_marginTop="10dp"/>
+    </RelativeLayout>
+</RelativeLayout>
